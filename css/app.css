@@ -1,28 +1,56 @@
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 700;
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-weight: bold;
 }
 
-.hero {
-  background-image: url(/img/hero2.png);
-  height: 430px;
-  background-position: left -42px bottom 0px;
+a {
+  color: #fd7f05;
 }
 
-.bubble {
-  position: absolute;
-  right: 100px;
-  top: 100px;
-  width: 450px;
-  height: 150px;
-  display: table;
-  background-color: white;
+::selection {
+  background-color: #fd7f05;
+  color: #fff
 }
 
-.bubble p {
-  display: table-cell;
-  vertical-align: middle;
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
+.message-container .message-body-1 {
+  text-align: center;
+  font-size: 60px;
+  color: #fd7f05;
+}
+
+.message-container .message-body-2 {
   text-align: center;
   font-size: 40px;
-  color: rgb(150, 77, 120);
+  color: #fd7f05;
+}
+
+.message-container .message-body-3 {
+  text-align: center;
+  font-size: 40px;
+  color: #fd7f05;
+}
+
+.message-container .message-body-4 {
+  text-align: center;
+  font-size: 40px;
+  color: #fd7f05;
+}
+
+.magazine img {
+  display: block;
+  margin: 0 auto;
+}
+
+.magazine-toggle {
+  text-align: center;
+  font-size: 30px;
+}
+
+.spacer {
+  height: 100px;
 }
