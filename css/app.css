@@ -1,0 +1,28 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 700;
+}
+
+.hero {
+  background-image: url(/img/hero2.png);
+  height: 430px;
+  background-position: left -42px bottom 0px;
+}
+
+.bubble {
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  width: 450px;
+  height: 150px;
+  display: table;
+  background-color: white;
+}
+
+.bubble p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(150, 77, 120);
+}
