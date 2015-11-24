@@ -23,6 +23,12 @@ a {
   color: #fd7f05;
 }
 
+.magazine-cover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
 .message-container .message-body-2 {
   text-align: center;
   font-size: 40px;
@@ -39,16 +45,6 @@ a {
   text-align: center;
   font-size: 40px;
   color: #fd7f05;
-}
-
-.magazine img {
-  display: block;
-  margin: 0 auto;
-}
-
-.magazine-toggle {
-  text-align: center;
-  font-size: 30px;
 }
 
 .spacer {
